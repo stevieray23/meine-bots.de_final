@@ -23,10 +23,10 @@ const Hero = () => {
             </h2>
           </div>
           <h1 className="font-bold text-white mb-4 sm:mb-6 leading-tight px-4">
-            Wir steigern Ihren <span className="whitespace-nowrap">Unternehmenserfolg</span> mit <span className="text-blue-500">Künstlicher Intelligenz</span>
+            We boost your <span className="whitespace-nowrap">business success</span> with <span className="text-blue-500">Artificial Intelligence</span>
           </h1>
           <p className="text-gray-300 mb-8 sm:mb-12 px-4">
-            Wir entwickeln und implementieren hochwertige KI-Lösungen, um Unternehmensprozesse zu optimieren.
+            We develop and implement high-quality AI solutions to optimize business processes.
           </p>
           <a
             href="https://calendly.com/meine-bots/gratisberatung"
@@ -34,7 +34,7 @@ const Hero = () => {
             rel="noopener noreferrer"
             className="inline-flex items-center px-6 sm:px-8 py-3 sm:py-4 text-sm sm:text-lg font-semibold text-white bg-blue-600 rounded-full hover:bg-blue-700 transition-colors group"
           >
-            KI-Beratung buchen
+            Book AI Consultation
             <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
           </a>
         </div>

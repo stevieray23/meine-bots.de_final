@@ -9,7 +9,7 @@ interface Message {
 
 const formatConversationHistory = (messages: Message[]): string => {
   return messages
-    .map(msg => `${msg.isBot ? 'Bot' : 'Nutzer'}: "${msg.text}"`)
+    .map(msg => `${msg.isBot ? 'Bot' : 'User'}: "${msg.text}"`)
     .join(';');
 };
 
@@ -17,7 +17,7 @@ const ChatbotDemo = () => {
   const [messages, setMessages] = useState<Message[]>([
     {
       id: 1,
-      text: "Hallo! Ich bin RiO, Ihr KI-Assistent. Wie kann ich Ihnen helfen?",
+      text: "Hello! I'm RiO, your AI assistant. How can I help you?",
       isBot: true
     }
   ]);
@@ -89,7 +89,7 @@ const ChatbotDemo = () => {
             <div className="p-4 border-b border-gray-800 flex items-center gap-2">
               <Bot className="h-6 w-6 text-blue-500" />
               <div>
-                <h3 className="font-medium text-white">KI-Chatbot</h3>
+                <h3 className="font-medium text-white">AI Chatbot</h3>
                 <div className="flex items-center gap-1 text-sm text-gray-400">
                   <Sparkles className="h-3 w-3 text-green-500" />
                   <span>Online</span>
@@ -122,7 +122,7 @@ const ChatbotDemo = () => {
                   type="text"
                   value={input}
                   onChange={(e) => setInput(e.target.value)}
-                  placeholder="Schreiben Sie eine Nachricht..."
+                  placeholder="Write a message..."
                   className="flex-1 bg-gray-800 rounded-full px-4 py-2 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500 disabled:opacity-50"
                   disabled={isLoading}
                 />
@@ -141,21 +141,21 @@ const ChatbotDemo = () => {
           <div className="space-y-6">
             <div className="inline-block">
               <span className="bg-blue-500/10 text-blue-500 px-4 py-1.5 rounded-full text-sm font-medium">
-                KI-Chatbots
+                AI Chatbots
               </span>
             </div>
             <h2 className="text-2xl sm:text-3xl font-bold text-white">
-              Revolutionieren Sie Ihren Kundenservice mit KI-gestützten Chatbots
+              Revolutionize Your Customer Service with AI-Powered Chatbots
             </h2>
             <p className="text-gray-400 text-lg">
-              Unsere KI-Chatbots lernen kontinuierlich aus Interaktionen, verstehen Kontext und liefern präzise Antworten in Echtzeit. Sie reduzieren Wartezeiten, steigern die Kundenzufriedenheit und entlasten Ihr Team.
+              Our AI chatbots continuously learn from interactions, understand context, and deliver precise answers in real-time. They reduce wait times, increase customer satisfaction, and relieve your team.
             </p>
             <ul className="space-y-3">
               {[
-                '24/7 Verfügbarkeit',
-                'Mehrsprachiger Support',
-                'Nahtlose Integration',
-                'Personalisierte Antworten'
+                '24/7 Availability',
+                'Multilingual Support',
+                'Seamless Integration',
+                'Personalized Responses'
               ].map((feature) => (
                 <li key={feature} className="flex items-center gap-2 text-gray-300">
                   <Sparkles className="h-5 w-5 text-blue-500" />
@@ -169,7 +169,7 @@ const ChatbotDemo = () => {
               rel="noopener noreferrer"
               className="inline-flex items-center px-6 py-3 text-white bg-blue-600 rounded-lg hover:bg-blue-700 transition-colors group"
             >
-              Chatbot-Beratung anfragen
+              Request Chatbot Consultation
               <Send className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
             </a>
           </div>

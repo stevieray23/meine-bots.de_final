@@ -2,12 +2,12 @@ import React, { useEffect } from 'react';
 import Header from './Header';
 import Footer from './Footer';
 
-const DatenschutzPage = () => {
-  console.log('Rendering DatenschutzPage');
+const PrivacyPolicyPage = () => {
+  console.log('Rendering PrivacyPolicyPage');
 
   useEffect(() => {
     window.scrollTo(0, 0);
-    console.log('DatenschutzPage mounted');
+    console.log('PrivacyPolicyPage mounted');
     // Force body styles
     document.body.style.backgroundColor = '#000000';
     document.body.style.color = '#ffffff';
@@ -24,48 +24,48 @@ const DatenschutzPage = () => {
       <Header />
       <main className="container mx-auto px-6 py-32" style={{ backgroundColor: '#000000', minHeight: 'calc(100vh - 200px)' }}>
         <div className="max-w-4xl mx-auto">
-          <h1 className="text-4xl font-bold mb-8" style={{ color: '#ffffff' }}>Datenschutzerklärung</h1>
+          <h1 className="text-4xl font-bold mb-8" style={{ color: '#ffffff' }}>Privacy Policy</h1>
           
           <section className="mb-12">
-            <h2 className="text-2xl font-bold mb-4">1. Verantwortliche Stelle</h2>
+            <h2 className="text-2xl font-bold mb-4">1. Responsible Entity</h2>
             <div className="pl-4 border-l-4 border-blue-500 text-gray-300">
               <p>Stegra LLC</p>
               <p>30 N Gould St Ste N</p>
               <p>Sheridan, WY 82801 USA</p>
               <p>EIN: 30-1365609</p>
-              <p>E-Mail: <a href="mailto:info@meine-bots.de" className="text-blue-500 hover:underline">info@meine-bots.de</a></p>
-              <p>Telefon: <a href="tel:+491752773365" className="text-blue-500 hover:underline">+49 1752773365</a></p>
-              <p>Vertretungsberechtigter Gesellschafter: Stephan Graf</p>
+              <p>Email: <a href="mailto:info@meine-bots.de" className="text-blue-500 hover:underline">info@meine-bots.de</a></p>
+              <p>Phone: <a href="tel:+491752773365" className="text-blue-500 hover:underline">+49 1752773365</a></p>
+              <p>Authorized Representative: Stephan Graf</p>
             </div>
           </section>
 
           <section className="mb-12">
-            <h2 className="text-2xl font-bold mb-4">2. Allgemeine Hinweise zum Datenschutz</h2>
+            <h2 className="text-2xl font-bold mb-4">2. General Information on Data Protection</h2>
             <p className="text-gray-300">
-              Der Schutz Ihrer personenbezogenen Daten ist uns ein wichtiges Anliegen. Wir verarbeiten Ihre Daten ausschließlich im Einklang mit den gesetzlichen Bestimmungen (DSGVO, BDSG und andere anwendbare Datenschutzgesetze). In dieser Datenschutzerklärung informieren wir Sie über die wichtigsten Aspekte der Datenverarbeitung im Rahmen unserer Website und unserer KI-Dienstleistungen.
+              The protection of your personal data is important to us. We process your data exclusively in accordance with legal provisions (GDPR, BDSG, and other applicable data protection laws). In this privacy policy, we inform you about the most important aspects of data processing within our website and our AI services.
             </p>
           </section>
 
           <section className="mb-12">
-            <h2 className="text-2xl font-bold mb-4">3. Erhebung und Verarbeitung personenbezogener Daten</h2>
+            <h2 className="text-2xl font-bold mb-4">3. Collection and Processing of Personal Data</h2>
             <div className="space-y-4 text-gray-300">
               <p>
-                Bei der Nutzung unserer Website werden verschiedene personenbezogene Daten erhoben. Personenbezogene Daten sind Daten, mit denen Sie persönlich identifiziert werden können. Je nach Nutzung unserer Dienste können folgende Daten verarbeitet werden:
+                When using our website, various personal data are collected. Personal data are data that can personally identify you. Depending on the use of our services, the following data may be processed:
               </p>
               <ul className="list-disc pl-6 space-y-2">
-                <li>Name, E-Mail-Adresse, Telefonnummer</li>
-                <li>Unternehmensinformationen (Name, Branche, Position)</li>
-                <li>Bei Nutzung unserer KI-Lösungen: Nutzungsdaten, Interaktionsdaten mit Chatbots und Sprachassistenten</li>
-                <li>Bei Terminvereinbarungen: Terminwünsche und -informationen</li>
-                <li>Technische Informationen (IP-Adresse, Browser-Typ, verwendetes Betriebssystem, Zugriffszeiten)</li>
+                <li>Name, email address, phone number</li>
+                <li>Company information (name, industry, position)</li>
+                <li>When using our AI solutions: usage data, interaction data with chatbots and voice assistants</li>
+                <li>For appointment scheduling: appointment requests and information</li>
+                <li>Technical information (IP address, browser type, operating system used, access times)</li>
               </ul>
-              <p>Die Verarbeitung dieser Daten erfolgt zu folgenden Zwecken:</p>
+              <p>The processing of this data is for the following purposes:</p>
               <ul className="list-disc pl-6 space-y-2">
-                <li>Zur Bereitstellung und Optimierung unserer KI-Lösungen</li>
-                <li>Zur Kommunikation mit Ihnen (Anfragen, Beratung, Support)</li>
-                <li>Zur Verbesserung unserer Dienstleistungen</li>
-                <li>Zur Durchführung von Demo-Terminen und Beratungsgesprächen</li>
-                <li>Zur Analyse der Websitenutzung</li>
+                <li>To provide and optimize our AI solutions</li>
+                <li>To communicate with you (inquiries, consultation, support)</li>
+                <li>To improve our services</li>
+                <li>To conduct demo appointments and consultation meetings</li>
+                <li>To analyze website usage</li>
               </ul>
             </div>
           </section>
@@ -73,40 +73,40 @@ const DatenschutzPage = () => {
           {/* Sections 4-12 */}
           {[
             {
-              title: "4. Rechtsgrundlagen der Verarbeitung",
+              title: "4. Legal Basis for Processing",
               content: (
                 <div className="space-y-4">
-                  <p>Die Verarbeitung Ihrer Daten erfolgt auf Grundlage folgender Rechtsgrundlagen:</p>
+                  <p>The processing of your data is based on the following legal grounds:</p>
                   <ul className="list-disc pl-6 space-y-2">
-                    <li>Ihre Einwilligung (Art. 6 Abs. 1 lit. a DSGVO)</li>
-                    <li>Zur Erfüllung eines Vertrages oder vorvertraglicher Maßnahmen (Art. 6 Abs. 1 lit. b DSGVO)</li>
-                    <li>Zur Wahrung unserer berechtigten Interessen (Art. 6 Abs. 1 lit. f DSGVO), sofern Ihre Interessen oder Grundrechte nicht überwiegen</li>
+                    <li>Your consent (Art. 6(1)(a) GDPR)</li>
+                    <li>For the performance of a contract or pre-contractual measures (Art. 6(1)(b) GDPR)</li>
+                    <li>For the purposes of our legitimate interests (Art. 6(1)(f) GDPR), unless your interests or fundamental rights override these</li>
                   </ul>
                 </div>
               )
             },
             {
-              title: "5. Weitergabe von Daten",
+              title: "5. Data Transfer",
               content: (
                 <div className="space-y-4">
-                  <p>Eine Übermittlung Ihrer personenbezogenen Daten an Dritte erfolgt nur, wenn:</p>
+                  <p>Your personal data will only be transferred to third parties if:</p>
                   <ul className="list-disc pl-6 space-y-2">
-                    <li>Sie hierzu Ihre ausdrückliche Einwilligung erteilt haben</li>
-                    <li>Dies zur Durchführung unserer Dienstleistungen erforderlich ist (z.B. Calendly für Terminvereinbarungen, Google Meet für Online-Meetings)</li>
-                    <li>Eine gesetzliche Verpflichtung zur Weitergabe besteht</li>
+                    <li>You have given your express consent</li>
+                    <li>It is necessary for the provision of our services (e.g., Calendly for appointment scheduling, Google Meet for online meetings)</li>
+                    <li>There is a legal obligation to transfer the data</li>
                   </ul>
                 </div>
               )
             },
             {
-              title: "6. Terminbuchung und Online-Meetings",
+              title: "6. Appointment Booking and Online Meetings",
               content: (
                 <div className="space-y-4">
                   <p>
-                    Für die Buchung von Demonstrationsterminen und Beratungsgesprächen nutzen wir Calendly. Bei einer Terminbuchung werden die von Ihnen angegebenen Daten an Calendly übermittelt. Nach erfolgreicher Buchung erhalten Sie einen Einladungslink zu einem Google Meet-Meeting.
+                    We use Calendly for booking demonstration appointments and consultation meetings. When booking an appointment, the information you provide is transmitted to Calendly. After successful booking, you will receive an invitation link to a Google Meet meeting.
                   </p>
                   <p>
-                    Bei der Nutzung von Calendly und Google Meet gelten die jeweiligen Datenschutzbestimmungen dieser Dienste. Wir empfehlen, sich mit diesen vertraut zu machen:
+                    When using Calendly and Google Meet, the respective privacy policies of these services apply. We recommend familiarizing yourself with them:
                   </p>
                   <ul className="list-disc pl-6 space-y-2">
                     <li><a href="https://calendly.com/privacy" className="text-blue-500 hover:underline" target="_blank" rel="noopener noreferrer">Calendly</a></li>
@@ -116,85 +116,85 @@ const DatenschutzPage = () => {
               )
             },
             {
-              title: "7. Einsatz von KI-Technologien",
+              title: "7. Use of AI Technologies",
               content: (
                 <div className="space-y-4">
                   <p>
-                    Als Anbieter von KI-Lösungen setzen wir modernste Technologien ein, um unsere Dienste zu erbringen. Dabei werden Daten wie folgende verarbeitet:
+                    As a provider of AI solutions, we use cutting-edge technologies to deliver our services. The following data is processed:
                   </p>
                   <ul className="list-disc pl-6 space-y-2">
-                    <li>Bei KI-Chatbots: Konversationsinhalte, Nutzereingaben, Interaktionsdaten</li>
-                    <li>Bei Sprachassistenten: Sprachaufnahmen, Transkriptionen, Konversationsinhalte</li>
-                    <li>Bei Workflow-Automatisierung: Prozessdaten, Eingabedaten, Ausgabedaten</li>
+                    <li>For AI chatbots: conversation content, user inputs, interaction data</li>
+                    <li>For voice assistants: voice recordings, transcriptions, conversation content</li>
+                    <li>For workflow automation: process data, input data, output data</li>
                   </ul>
                   <p>
-                    Die Verarbeitung dieser Daten erfolgt, um Ihnen maßgeschneiderte KI-Lösungen anzubieten und diese kontinuierlich zu verbessern. Wir stellen sicher, dass alle datenschutzrechtlichen Anforderungen bei der Entwicklung und Implementierung unserer KI-Systeme berücksichtigt werden.
+                    This data is processed to provide you with customized AI solutions and to continuously improve them. We ensure that all data protection requirements are considered in the development and implementation of our AI systems.
                   </p>
                 </div>
               )
             },
             {
-              title: "8. Cookies und Webanalyse",
+              title: "8. Cookies and Web Analysis",
               content: (
                 <div className="space-y-4">
                   <p>
-                    Unsere Website verwendet Cookies, um die Benutzerfreundlichkeit zu verbessern. Cookies sind kleine Textdateien, die auf Ihrem Endgerät gespeichert werden.
+                    Our website uses cookies to improve user-friendliness. Cookies are small text files that are stored on your device.
                   </p>
                   <p>
-                    Wir nutzen Google Analytics, um die Nutzung unserer Website zu analysieren. Google Analytics verwendet Cookies, die eine Analyse der Benutzung der Website ermöglichen. Die durch den Cookie erzeugten Informationen werden in der Regel an einen Server von Google in den USA übertragen und dort gespeichert. Wir haben Maßnahmen getroffen, um einen datenschutzkonformen Einsatz sicherzustellen:
+                    We use Google Analytics to analyze the use of our website. Google Analytics uses cookies that enable an analysis of your use of the website. The information generated by the cookie is usually transferred to a Google server in the USA and stored there. We have taken measures to ensure data protection-compliant use:
                   </p>
                   <ul className="list-disc pl-6 space-y-2">
-                    <li>IP-Anonymisierung</li>
-                    <li>Abschluss eines Auftragsverarbeitungsvertrags mit Google</li>
-                    <li>Verwendung von Standard-Vertragsklauseln für Datentransfers in die USA</li>
+                    <li>IP anonymization</li>
+                    <li>Conclusion of a data processing agreement with Google</li>
+                    <li>Use of standard contractual clauses for data transfers to the USA</li>
                   </ul>
                   <p>
-                    Sie können die Speicherung der Cookies durch eine entsprechende Einstellung Ihrer Browser-Software verhindern.
+                    You can prevent the storage of cookies by adjusting your browser software accordingly.
                   </p>
                 </div>
               )
             },
             {
-              title: "9. Ihre Rechte",
+              title: "9. Your Rights",
               content: (
                 <div className="space-y-4">
-                  <p>Sie haben folgende Rechte:</p>
+                  <p>You have the following rights:</p>
                   <ul className="list-disc pl-6 space-y-2">
-                    <li>Recht auf Auskunft (Art. 15 DSGVO)</li>
-                    <li>Recht auf Berichtigung (Art. 16 DSGVO)</li>
-                    <li>Recht auf Löschung (Art. 17 DSGVO)</li>
-                    <li>Recht auf Einschränkung der Verarbeitung (Art. 18 DSGVO)</li>
-                    <li>Recht auf Datenübertragbarkeit (Art. 20 DSGVO)</li>
-                    <li>Recht auf Widerspruch (Art. 21 DSGVO)</li>
-                    <li>Beschwerderecht bei einer Aufsichtsbehörde</li>
+                    <li>Right to information (Art. 15 GDPR)</li>
+                    <li>Right to rectification (Art. 16 GDPR)</li>
+                    <li>Right to erasure (Art. 17 GDPR)</li>
+                    <li>Right to restriction of processing (Art. 18 GDPR)</li>
+                    <li>Right to data portability (Art. 20 GDPR)</li>
+                    <li>Right to object (Art. 21 GDPR)</li>
+                    <li>Right to lodge a complaint with a supervisory authority</li>
                   </ul>
                   <p>
-                    Um Ihre Rechte auszuüben, kontaktieren Sie uns bitte unter den angegebenen Kontaktdaten.
+                    To exercise your rights, please contact us using the contact details provided.
                   </p>
                 </div>
               )
             },
             {
-              title: "10. Datensicherheit",
+              title: "10. Data Security",
               content: (
                 <p>
-                  Wir treffen angemessene technische und organisatorische Maßnahmen, um Ihre personenbezogenen Daten gegen zufällige oder vorsätzliche Manipulation, Verlust, Zerstörung oder unbefugten Zugriff zu schützen. Unsere Sicherheitsmaßnahmen werden entsprechend der technologischen Entwicklung fortlaufend verbessert.
+                  We take appropriate technical and organizational measures to protect your personal data against accidental or intentional manipulation, loss, destruction, or unauthorized access. Our security measures are continuously improved in line with technological developments.
                 </p>
               )
             },
             {
-              title: "11. Aufbewahrungsdauer",
+              title: "11. Retention Period",
               content: (
                 <p>
-                  Wir speichern Ihre personenbezogenen Daten nur so lange, wie es für die Zwecke, für die sie erhoben wurden, erforderlich ist oder solange gesetzliche Aufbewahrungsfristen bestehen.
+                  We store your personal data only for as long as necessary for the purposes for which they were collected or as long as statutory retention periods exist.
                 </p>
               )
             },
             {
-              title: "12. Änderungen der Datenschutzerklärung",
+              title: "12. Changes to the Privacy Policy",
               content: (
                 <p>
-                  Wir behalten uns vor, diese Datenschutzerklärung bei Bedarf anzupassen, damit sie stets den aktuellen rechtlichen Anforderungen entspricht oder um Änderungen unserer Leistungen in der Datenschutzerklärung zu berücksichtigen.
+                  We reserve the right to adapt this privacy policy as needed to ensure it always complies with current legal requirements or to reflect changes to our services in the privacy policy.
                 </p>
               )
             }
@@ -208,7 +208,7 @@ const DatenschutzPage = () => {
           ))}
 
           <p className="text-sm text-gray-400 mt-16">
-            Stand: März 2025
+            Last updated: March 2025
           </p>
         </div>
       </main>
@@ -217,4 +217,4 @@ const DatenschutzPage = () => {
   );
 };
 
-export default DatenschutzPage;
+export default PrivacyPolicyPage;

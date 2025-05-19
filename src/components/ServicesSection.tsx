@@ -11,7 +11,7 @@ const ServicesSection = () => {
             <div className="space-y-6">
               <div className="inline-block">
                 <span className="bg-blue-500/10 text-blue-500 px-4 py-1.5 rounded-full text-sm font-medium">
-                  KI-Beratung
+                  AI Consulting
                 </span>
               </div>
               
@@ -21,10 +21,10 @@ const ServicesSection = () => {
                 </div>
                 <div className="min-w-0">
                   <h3 className="text-xl sm:text-2xl font-bold text-white mb-2 sm:mb-3">
-                    Strategische KI-Integration
+                    Strategic AI Integration
                   </h3>
                   <p className="text-gray-400 text-sm sm:text-base break-words">
-                    Wir analysieren Ihr Unternehmen im Detail, um KI-gestützte Automatisierungspotenziale zu identifizieren.
+                    We analyze your business in detail to identify AI-powered automation potential.
                   </p>
                 </div>
               </div>
@@ -33,13 +33,13 @@ const ServicesSection = () => {
                 <div className="bg-gray-800/50 rounded-lg p-6">
                   <div className="flex items-center gap-3 mb-4">
                     <LineChart className="h-5 w-5 text-blue-500" />
-                    <h4 className="text-lg font-medium text-white">Leistungskennzahlen</h4>
+                    <h4 className="text-lg font-medium text-white">Performance Metrics</h4>
                   </div>
                   <div className="grid grid-cols-2 gap-4">
                     {[
-                      { label: 'Effizienzsteigerung', value: '+45%' },
-                      { label: 'Kostenreduktion', value: '-30%' },
-                      { label: 'Prozessoptimierung', value: '+60%' },
+                      { label: 'Efficiency Increase', value: '+45%' },
+                      { label: 'Cost Reduction', value: '-30%' },
+                      { label: 'Process Optimization', value: '+60%' },
                       { label: 'ROI', value: '3.5x' }
                     ].map((stat) => (
                       <div key={stat.label} className="text-center p-3 bg-gray-800/30 rounded-lg">
@@ -52,10 +52,10 @@ const ServicesSection = () => {
 
                 <ul className="space-y-3">
                   {[
-                    'Detaillierte Prozessanalyse',
-                    'KI-Potenzialermittlung',
-                    'Implementierungsstrategie',
-                    'ROI-Berechnung'
+                    'Detailed Process Analysis',
+                    'AI Potential Assessment',
+                    'Implementation Strategy',
+                    'ROI Calculation'
                   ].map((feature) => (
                     <li key={feature} className="flex items-center gap-2 text-gray-300">
                       <Sparkles className="h-5 w-5 text-blue-500" />
@@ -71,7 +71,7 @@ const ServicesSection = () => {
                 rel="noopener noreferrer"
                 className="inline-flex items-center px-6 py-3 text-white bg-blue-600 rounded-lg hover:bg-blue-700 transition-colors group"
               >
-                Beratungsgespräch vereinbaren
+                Schedule Consultation
                 <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
               </a>
             </div>
@@ -82,7 +82,7 @@ const ServicesSection = () => {
             <div className="space-y-6">
               <div className="inline-block">
                 <span className="bg-blue-500/10 text-blue-500 px-4 py-1.5 rounded-full text-sm font-medium">
-                  Workflow-Automatisierung
+                  Workflow Automation
                 </span>
               </div>
               
@@ -92,10 +92,10 @@ const ServicesSection = () => {
                 </div>
                 <div>
                   <h3 className="text-xl sm:text-2xl font-bold text-white mb-2 sm:mb-3">
-                    Intelligente Prozessoptimierung
+                    Intelligent Process Optimization
                   </h3>
                   <p className="text-gray-400 text-sm sm:text-base break-words">
-                    Optimieren Sie Ihre Prozesse durch intelligente Workflow-Automatisierungen, die Ihre bevorzugten Anwendungen nahtlos verbinden.
+                    Optimize your processes through intelligent workflow automations that seamlessly connect your preferred applications.
                   </p>
                 </div>
               </div>
@@ -104,13 +104,13 @@ const ServicesSection = () => {
                 <div className="bg-gray-800/50 rounded-lg p-6">
                   <div className="flex items-center gap-3 mb-4">
                     <Workflow className="h-5 w-5 text-blue-500" />
-                    <h4 className="text-lg font-medium text-white">Automatisierte Workflows</h4>
+                    <h4 className="text-lg font-medium text-white">Automated Workflows</h4>
                   </div>
                   <div className="grid grid-cols-3 gap-4">
                     {[
-                      { step: 'Input', description: 'Datenerfassung' },
-                      { step: 'Prozess', description: 'KI-Analyse' },
-                      { step: 'Output', description: 'Automatisierung' }
+                      { step: 'Input', description: 'Data Collection' },
+                      { step: 'Process', description: 'AI Analysis' },
+                      { step: 'Output', description: 'Automation' }
                     ].map((item, index) => (
                       <div key={item.step} className="text-center p-2 sm:p-3 bg-gray-800/30 rounded-lg">
                         <div className="w-8 h-8 mx-auto mb-2 rounded-full bg-blue-900/30 border border-blue-500/30 flex items-center justify-center">
@@ -125,10 +125,10 @@ const ServicesSection = () => {
 
                 <ul className="space-y-3">
                   {[
-                    'App-Integration',
-                    'Prozessautomatisierung',
-                    'Fehlerreduktion',
-                    'Echtzeit-Monitoring'
+                    'App Integration',
+                    'Process Automation',
+                    'Error Reduction',
+                    'Real-time Monitoring'
                   ].map((feature) => (
                     <li key={feature} className="flex items-center gap-2 text-gray-300">
                       <Sparkles className="h-5 w-5 text-blue-500" />
@@ -144,7 +144,7 @@ const ServicesSection = () => {
                 rel="noopener noreferrer"
                 className="inline-flex items-center px-6 py-3 text-white bg-blue-600 rounded-lg hover:bg-blue-700 transition-colors group"
               >
-                Automation Demo anfragen
+                Request Automation Demo
                 <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
               </a>
             </div>

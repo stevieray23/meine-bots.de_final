@@ -3,28 +3,28 @@ import { Quote, Star } from 'lucide-react';
 
 const testimonials = [
   {
-    quote: "Der KI-Chatbot hat unseren Kundenservice revolutioniert. Die Reaktionszeiten sanken um 80% und die Kundenzufriedenheit ist auf einem Allzeithoch.",
+    quote: "The AI chatbot has revolutionized our customer service. Response times decreased by 80% and customer satisfaction is at an all-time high.",
     author: "Sarah Weber",
     position: "Head of Customer Service",
     company: "TechRetail GmbH",
     image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&q=80&w=150&h=150"
   },
   {
-    quote: "Der KI Bot von meine-bots hat unsere Zahnarztpraxis revolutioniert! Die Patienten können sich jetzt bequem vorab über ganzheitliche Behandlungen informieren, was ihre Ängste deutlich reduziert hat. Die Implementierung war unkompliziert und der Support erstklassig. Die Ergebnisse übertreffen all unsere Erwartungen - von optimierten Abläufen bis hin zu begeisterten Patienten.",
+    quote: "The AI Bot from my-bots has revolutionized our dental practice! Patients can now conveniently learn about holistic treatments in advance, which has significantly reduced their anxiety. The implementation was straightforward and the support first-class. The results exceed all our expectations - from optimized processes to delighted patients.",
     author: "Dr. Wolfgang Koch",
-    position: "Zahnarzt & Praxisinhaber",
+    position: "Dentist & Practice Owner",
     company: "www.praxis-dr-koch.de",
     image: "https://www.praxis-dr-koch.de/wp-content/uploads/2022/02/dr_wolfgang_h_koch.png"
   },
   {
-    quote: "Die KI Lösungen von meine-bots haben meine Erwartungen übertroffen. Nachweisbare Reduzierung von Telefonzeiten sowie zügige und unkomlizierte Umsetzung. Ich kann die KI allen Kolleginnen und Kollegen wärmstens weiter empfehlen!",
+    quote: "The AI solutions from my-bots have exceeded my expectations. Demonstrable reduction in phone time as well as quick and uncomplicated implementation. I can warmly recommend the AI to all colleagues!",
     author: "Dr. Johanna Graf",
-    position: "Zahnärztin & Praxisinhaberin",
+    position: "Dentist & Practice Owner",
     company: "www.praxis-dr-graf.de",
     image: "https://cdn.chimpify.net/5ed0dc6ca85872e86d8b4578/2020/06/Praxisbild1.jpg"
   },
   {
-    quote: "Die Integration der KI-Lösungen verlief reibungslos und die Ergebnisse übertrafen unsere Erwartungen bei weitem.",
+    quote: "The integration of the AI solutions went smoothly and the results far exceeded our expectations.",
     author: "Thomas Leidl",
     position: "CEO",
     company: "LT Engineering GmbH",
@@ -38,10 +38,10 @@ const TestimonialsSection = () => {
       <div className="container mx-auto px-6">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-2xl sm:text-3xl font-bold text-white mb-6">
-            Das sagen unsere Kunden
+            What Our Clients Say
           </h2>
           <p className="text-gray-400 text-lg">
-            Erfahren Sie, wie unsere KI-Lösungen Unternehmen verschiedener Branchen dabei helfen, ihre Ziele zu erreichen.
+            Learn how our AI solutions help businesses across various industries achieve their goals.
           </p>
         </div>
 

@@ -8,24 +8,24 @@ interface FAQItem {
 
 const faqs: FAQItem[] = [
   {
-    question: "Was macht meine-bots einzigartig?",
-    answer: "Unsere Einzigartigkeit liegt in der Kombination aus hochmoderner KI-Technologie und individueller Betreuung. Wir entwickeln maßgeschneiderte Lösungen, die perfekt auf Ihre Geschäftsprozesse abgestimmt sind. Unser Team aus erfahrenen Entwicklern und KI-Experten garantiert nicht nur technische Exzellenz, sondern auch eine reibungslose Integration in Ihr Unternehmen."
+    question: "What makes my-bots unique?",
+    answer: "Our uniqueness lies in the combination of cutting-edge AI technology and personalized support. We develop customized solutions perfectly tailored to your business processes. Our team of experienced developers and AI experts guarantees not only technical excellence but also seamless integration into your company."
   },
   {
-    question: "Ist mein Unternehmen für KI-Lösungen geeignet?",
-    answer: "Grundsätzlich kann jedes Unternehmen von KI-Lösungen profitieren. Wir analysieren gemeinsam Ihre Prozesse und identifizieren die Bereiche, in denen KI den größten Mehrwert schaffen kann. Ob Kundenservice, Prozessautomatisierung oder Datenanalyse - wir finden die passende Lösung für Ihre spezifischen Anforderungen und Unternehmensgröße."
+    question: "Is my company suitable for AI solutions?",
+    answer: "Basically, any company can benefit from AI solutions. Together, we analyze your processes and identify the areas where AI can create the greatest added value. Whether customer service, process automation, or data analysis - we find the right solution for your specific requirements and company size."
   },
   {
-    question: "Wie lange dauert die Entwicklungsphase?",
-    answer: "Die Entwicklungsdauer variiert je nach Komplexität und Umfang des Projekts. Typischerweise rechnen wir mit 2-4 Wochen für einfache Chatbots und zwischen 4-8 Wochen für komplexere Automatisierungen."
+    question: "How long does the development phase take?",
+    answer: "The development duration varies depending on the complexity and scope of the project. Typically, we expect 2-4 weeks for simple chatbots and between 4-8 weeks for more complex automations."
   },
   {
-    question: "Bieten Sie Support nach der Implementierung an?",
-    answer: "Ja, wir bieten umfassenden Support auch nach der Implementierung. Unser Supportteam steht Ihnen bei Fragen zur Verfügung, und wir führen regelmäßige Wartungen sowie Updates durch. Zusätzlich bieten wir Schulungen für Ihre Mitarbeiter an und optimieren die Systeme kontinuierlich basierend auf Ihrem Feedback und neuen Anforderungen."
+    question: "Do you offer support after implementation?",
+    answer: "Yes, we offer comprehensive support even after implementation. Our support team is available to answer your questions, and we perform regular maintenance and updates. Additionally, we offer training for your employees and continuously optimize the systems based on your feedback and new requirements."
   },
   {
-    question: "Sind Ihre KI-Lösungen DSGVO-konform?",
-    answer: "Ja, alle unsere KI-Lösungen und Automatisierungen entsprechen vollständig den Anforderungen der Datenschutz-Grundverordnung (DSGVO). Wir legen höchsten Wert auf Datenschutz und Datensicherheit. Wir arbeiten ausschließlich mit Partnern zusammen, die sich dem Datenschutz verschrieben haben und entsprechend zertifiziert sind. So stellen wir sicher, dass alle implementierten Lösungen den strengen deutschen und europäischen Datenschutzstandards entsprechen."
+    question: "Are your AI solutions GDPR compliant?",
+    answer: "Yes, all our AI solutions and automations fully comply with the requirements of the General Data Protection Regulation (GDPR). We place the highest value on data protection and data security. We work exclusively with partners who are committed to data protection and are appropriately certified. This ensures that all implemented solutions meet the strict German and European data protection standards."
   }
 ];
 
@@ -37,10 +37,10 @@ const FAQSection = () => {
       <div className="container mx-auto px-6">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-4xl font-bold text-white mb-6">
-            Häufig gestellte Fragen
+            Frequently Asked Questions
           </h2>
           <p className="text-gray-400 text-lg">
-            Finden Sie Antworten auf die wichtigsten Fragen zu unseren KI-Lösungen
+            Find answers to the most important questions about our AI solutions
           </p>
         </div>
 

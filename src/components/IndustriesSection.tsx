@@ -12,39 +12,39 @@ import {
 const industries = [
   {
     icon: ShoppingBag,
-    name: 'E-Commerce & Handel',
+    name: 'E-Commerce & Retail',
     style: 'from-purple-500/20 to-blue-500/20 border-purple-900/30',
-    description: 'KI-gestützte Verkaufsoptimierung'
+    description: 'AI-powered sales optimization'
   },
   {
     icon: BadgeDollarSign,
-    name: 'Finanzwesen',
+    name: 'Finance',
     style: 'from-emerald-500/20 to-blue-500/20 border-emerald-900/30',
-    description: 'Automatisierte Finanzprozesse'
+    description: 'Automated financial processes'
   },
   {
     icon: Home,
-    name: 'Immobilien',
+    name: 'Real Estate',
     style: 'from-amber-500/20 to-red-500/20 border-amber-900/30',
-    description: 'Intelligente Immobilienverwaltung'
+    description: 'Intelligent property management'
   },
   {
     icon: Scale,
-    name: 'Rechtswesen',
+    name: 'Legal',
     style: 'from-gray-500/20 to-slate-500/20 border-gray-800',
-    description: 'Rechtsdokumentenanalyse'
+    description: 'Legal document analysis'
   },
   {
     icon: Heart,
-    name: 'Gesundheitswesen',
+    name: 'Healthcare',
     style: 'from-sky-500/20 to-indigo-500/20 border-sky-900/30',
-    description: 'Patientenbetreuung & Verwaltung'
+    description: 'Patient care & administration'
   },
   {
     icon: Building2,
-    name: 'Beauty & Kosmetik',
+    name: 'Beauty & Cosmetics',
     style: 'from-pink-500/20 to-purple-500/20 border-pink-900/30',
-    description: 'Terminplanung & Kundenservice'
+    description: 'Appointment scheduling & customer service'
   }
 ];
 
@@ -54,10 +54,10 @@ const IndustriesSection = () => {
       <div className="container mx-auto px-6">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-2xl sm:text-3xl font-bold text-white mb-6">
-            Branchen, die wir transformieren
+            Industries We Transform
           </h2>
           <p className="text-gray-400 text-lg">
-            Wir unterstützen Unternehmen verschiedener Branchen dabei, durch KI-gestützte Automatisierungslösungen zu wachsen und sich weiterzuentwickeln.
+            We help businesses across various industries grow and evolve through AI-powered automation solutions.
           </p>
         </div>
 
@@ -93,7 +93,7 @@ const IndustriesSection = () => {
             className="inline-flex items-center px-6 py-3 text-white bg-blue-600 
               rounded-lg hover:bg-blue-700 transition-colors text-sm sm:text-base"
           >
-            Branchenlösung anfragen
+            Request Industry Solution
           </a>
         </div>
       </div>

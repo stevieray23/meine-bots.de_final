@@ -58,7 +58,7 @@ const CookieConsent = () => {
       <div className="max-w-xl w-full bg-gray-900 rounded-lg shadow-lg pointer-events-auto border border-gray-800">
         <div className="p-6">
           <div className="flex items-start justify-between">
-            <h3 className="text-xl font-semibold text-white">Cookie-Einstellungen</h3>
+            <h3 className="text-xl font-semibold text-white">Cookie Settings</h3>
             <button
               onClick={() => setIsOpen(false)}
               className="text-gray-400 hover:text-white transition-colors"
@@ -68,18 +68,18 @@ const CookieConsent = () => {
           </div>
           
           <p className="mt-4 text-gray-300">
-            Wir verwenden Cookies, um Ihnen die bestmögliche Erfahrung auf unserer Website zu bieten. 
-            Einige sind notwendig für den Betrieb der Seite, während andere uns helfen, die Website 
-            zu verbessern und das Nutzererlebnis zu personalisieren.
+            We use cookies to provide you with the best possible experience on our website. 
+            Some are necessary for the operation of the site, while others help us improve the website 
+            and personalize the user experience.
           </p>
 
           {showDetails && (
             <div className="mt-6 space-y-4">
               <div className="flex items-center justify-between">
                 <div>
-                  <h4 className="text-white font-medium">Notwendige Cookies</h4>
+                  <h4 className="text-white font-medium">Necessary Cookies</h4>
                   <p className="text-sm text-gray-400">
-                    Diese Cookies sind für die Grundfunktionen der Website erforderlich.
+                    These cookies are required for the basic functions of the website.
                   </p>
                 </div>
                 <input
@@ -92,9 +92,9 @@ const CookieConsent = () => {
 
               <div className="flex items-center justify-between">
                 <div>
-                  <h4 className="text-white font-medium">Analyse Cookies</h4>
+                  <h4 className="text-white font-medium">Analytics Cookies</h4>
                   <p className="text-sm text-gray-400">
-                    Helfen uns zu verstehen, wie Besucher mit der Website interagieren.
+                    Help us understand how visitors interact with the website.
                   </p>
                 </div>
                 <input
@@ -109,7 +109,7 @@ const CookieConsent = () => {
                 <div>
                   <h4 className="text-white font-medium">Marketing Cookies</h4>
                   <p className="text-sm text-gray-400">
-                    Werden verwendet, um Werbung besser auf Sie abzustimmen.
+                    Used to better tailor advertising to you.
                   </p>
                 </div>
                 <input
@@ -127,21 +127,21 @@ const CookieConsent = () => {
               onClick={() => setShowDetails(!showDetails)}
               className="flex-1 px-4 py-2 border border-gray-600 rounded-lg text-white hover:bg-gray-800 transition-colors"
             >
-              Einstellungen {showDetails ? 'verbergen' : 'anzeigen'}
+              {showDetails ? 'Hide' : 'Show'} settings
             </button>
             {showDetails ? (
               <button
                 onClick={handleAcceptSelected}
                 className="flex-1 px-4 py-2 bg-blue-600 rounded-lg text-white hover:bg-blue-700 transition-colors"
               >
-                Auswahl bestätigen
+                Confirm Selection
               </button>
             ) : (
               <button
                 onClick={handleAcceptAll}
                 className="flex-1 px-4 py-2 bg-blue-600 rounded-lg text-white hover:bg-blue-700 transition-colors"
               >
-                Alle akzeptieren
+                Accept All
               </button>
             )}
           </div>

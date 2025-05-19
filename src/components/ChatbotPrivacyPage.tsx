@@ -19,172 +19,172 @@ const ChatbotPrivacyPage = () => {
       <Header />
       <main className="container mx-auto px-6 py-32" style={{ backgroundColor: '#000000', minHeight: 'calc(100vh - 200px)' }}>
         <div className="max-w-4xl mx-auto">
-          <h1 className="text-4xl font-bold mb-8">Datenschutzhinweise für die Chatbot-Nutzung</h1>
-          <p className="text-gray-400 mb-8">Stand: Oktober 2024</p>
+          <h1 className="text-4xl font-bold mb-8">Privacy Information for Chatbot Usage</h1>
+          <p className="text-gray-400 mb-8">Last updated: October 2024</p>
 
           <section className="mb-12">
-            <h2 className="text-2xl font-bold mb-4">1. Verantwortlichkeit und Organisation</h2>
+            <h2 className="text-2xl font-bold mb-4">1. Responsibility and Organization</h2>
             <div className="space-y-4 text-gray-300">
-              <p>Für die Verarbeitung Ihrer Daten sind gemeinsam verantwortlich:</p>
+              <p>The following entities are jointly responsible for processing your data:</p>
               <ul className="list-disc pl-6 space-y-2">
-                <li>Die jeweilige Zahnarztpraxis, auf deren Website Sie den Chatbot nutzen</li>
-                <li>Meine-bots (SteGra LLC) als technischer Dienstleister und Betreiber des Chatbot-Systems</li>
+                <li>The respective dental practice on whose website you use the chatbot</li>
+                <li>My-bots (SteGra LLC) as technical service provider and operator of the chatbot system</li>
               </ul>
-              <p>Die Zuständigkeiten sind wie folgt verteilt:</p>
+              <p>Responsibilities are distributed as follows:</p>
               <ul className="list-disc pl-6 space-y-2">
-                <li>Die jeweilige Praxis verantwortet die medizinischen Aspekte und den Patientenkontakt</li>
-                <li>Meine-bots verantwortet die technische Bereitstellung und Sicherheit des Systems</li>
+                <li>The respective practice is responsible for medical aspects and patient contact</li>
+                <li>My-bots is responsible for technical provision and system security</li>
               </ul>
             </div>
           </section>
 
           <section className="mb-12">
-            <h2 className="text-2xl font-bold mb-4">2. Datenverarbeitung</h2>
+            <h2 className="text-2xl font-bold mb-4">2. Data Processing</h2>
             <div className="space-y-4 text-gray-300">
-              <h3 className="text-xl font-semibold mb-2">2.1 Erfasste Daten:</h3>
+              <h3 className="text-xl font-semibold mb-2">2.1 Collected Data:</h3>
               <ul className="list-disc pl-6 space-y-2">
-                <li>Inhalt Ihrer Chat-Nachrichten</li>
-                <li>Zeitpunkt und Dauer der Nutzung</li>
-                <li>Technische Verbindungsdaten</li>
-                <li>Interaktionsmuster zur Qualitätssicherung</li>
+                <li>Content of your chat messages</li>
+                <li>Time and duration of use</li>
+                <li>Technical connection data</li>
+                <li>Interaction patterns for quality assurance</li>
               </ul>
               
-              <h3 className="text-xl font-semibold mb-2">2.2 Wichtiger Hinweis:</h3>
+              <h3 className="text-xl font-semibold mb-2">2.2 Important Note:</h3>
               <p>
-                Bitte übermitteln Sie keine sensiblen Gesundheitsdaten oder besonders vertrauliche Informationen über den Chat. 
-                Für medizinische Beratung nutzen Sie bitte den direkten Kontakt zur Praxis.
+                Please do not transmit sensitive health data or particularly confidential information via the chat. 
+                For medical advice, please use direct contact with the practice.
               </p>
             </div>
           </section>
 
           <section className="mb-12">
-            <h2 className="text-2xl font-bold mb-4">3. Zugriff und Einsicht</h2>
+            <h2 className="text-2xl font-bold mb-4">3. Access and Insight</h2>
             <div className="space-y-4 text-gray-300">
-              <h3 className="text-xl font-semibold mb-2">3.1 Direkter Zugriff auf Ihre Chatverläufe haben:</h3>
+              <h3 className="text-xl font-semibold mb-2">3.1 Direct access to your chat history:</h3>
               <ul className="list-disc pl-6 space-y-2">
-                <li>Ihre Zahnarztpraxis (für Patientenbetreuung)</li>
-                <li>Meine-bots (für technische Betreuung und Qualitätssicherung)</li>
+                <li>Your dental practice (for patient care)</li>
+                <li>My-bots (for technical support and quality assurance)</li>
               </ul>
 
-              <h3 className="text-xl font-semibold mb-2">3.2 Technische Dienstleister:</h3>
+              <h3 className="text-xl font-semibold mb-2">3.2 Technical Service Providers:</h3>
               <p>
-                Folgende Unternehmen verarbeiten Daten in unserem Auftrag unter strengen Sicherheitsauflagen:
+                The following companies process data on our behalf under strict security requirements:
               </p>
               <ul className="list-disc pl-6 space-y-2">
-                <li>Voiceflow (Kanada): Chatbot-Steuerung</li>
-                <li>OpenAI und Anthropic (USA): KI-gestützte Textverarbeitung</li>
-                <li>VectorShift (USA): Systemoptimierung</li>
+                <li>Voiceflow (Canada): Chatbot control</li>
+                <li>OpenAI and Anthropic (USA): AI-powered text processing</li>
+                <li>VectorShift (USA): System optimization</li>
               </ul>
 
-              <h3 className="text-xl font-semibold mb-2">3.3 Internationale Datenübermittlung:</h3>
-              <p>Die Übermittlung von Daten in Drittländer erfolgt auf Basis:</p>
+              <h3 className="text-xl font-semibold mb-2">3.3 International Data Transfer:</h3>
+              <p>The transfer of data to third countries is based on:</p>
               <ul className="list-disc pl-6 space-y-2">
-                <li>EU-Standardvertragsklauseln</li>
-                <li>Technischer Schutzmaßnahmen</li>
-                <li>Regelmäßiger Sicherheitsüberprüfungen</li>
+                <li>EU Standard Contractual Clauses</li>
+                <li>Technical protection measures</li>
+                <li>Regular security reviews</li>
               </ul>
             </div>
           </section>
 
           <section className="mb-12">
-            <h2 className="text-2xl font-bold mb-4">4. Zwecke der Verarbeitung</h2>
+            <h2 className="text-2xl font-bold mb-4">4. Purposes of Processing</h2>
             <div className="space-y-4 text-gray-300">
-              <p>Ihre Daten werden verwendet für:</p>
+              <p>Your data is used for:</p>
               <ul className="list-disc pl-6 space-y-2">
-                <li>Beantwortung Ihrer Anfragen</li>
-                <li>Qualitätssicherung des Services</li>
-                <li>Technische Verbesserung des Systems</li>
-                <li>Schulung des KI-Systems (nur in anonymisierter Form)</li>
+                <li>Answering your inquiries</li>
+                <li>Quality assurance of the service</li>
+                <li>Technical improvement of the system</li>
+                <li>Training of the AI system (only in anonymized form)</li>
               </ul>
             </div>
           </section>
 
           <section className="mb-12">
-            <h2 className="text-2xl font-bold mb-4">5. Speicherdauer</h2>
+            <h2 className="text-2xl font-bold mb-4">5. Storage Duration</h2>
             <div className="space-y-4 text-gray-300">
               <ul className="list-disc pl-6 space-y-2">
-                <li>Chatverläufe werden für 12 Monate gespeichert</li>
-                <li>Technische Protokolldaten für 90 Tage</li>
-                <li>Frühere Löschung auf Anfrage möglich</li>
-                <li>Gesetzliche Aufbewahrungspflichten bleiben unberührt</li>
+                <li>Chat histories are stored for 12 months</li>
+                <li>Technical log data for 90 days</li>
+                <li>Earlier deletion possible upon request</li>
+                <li>Legal retention obligations remain unaffected</li>
               </ul>
             </div>
           </section>
 
           <section className="mb-12">
-            <h2 className="text-2xl font-bold mb-4">6. Ihre Rechte</h2>
+            <h2 className="text-2xl font-bold mb-4">6. Your Rights</h2>
             <div className="space-y-4 text-gray-300">
-              <p>Sie haben das Recht auf:</p>
+              <p>You have the right to:</p>
               <ul className="list-disc pl-6 space-y-2">
-                <li>Widerruf Ihrer Einwilligung</li>
-                <li>Auskunft über gespeicherte Daten</li>
-                <li>Berichtigung unrichtiger Daten</li>
-                <li>Löschung Ihrer Daten</li>
-                <li>Einschränkung der Verarbeitung</li>
-                <li>Datenübertragbarkeit</li>
-                <li>Beschwerde bei einer Aufsichtsbehörde</li>
+                <li>Withdraw your consent</li>
+                <li>Access information about stored data</li>
+                <li>Rectify incorrect data</li>
+                <li>Delete your data</li>
+                <li>Restrict processing</li>
+                <li>Data portability</li>
+                <li>Lodge a complaint with a supervisory authority</li>
               </ul>
             </div>
           </section>
 
           <section className="mb-12">
-            <h2 className="text-2xl font-bold mb-4">7. Ausübung Ihrer Rechte</h2>
+            <h2 className="text-2xl font-bold mb-4">7. Exercising Your Rights</h2>
             <div className="space-y-4 text-gray-300">
-              <h3 className="text-xl font-semibold mb-2">7.1 Für Anfragen zu Ihren Chatverläufen:</h3>
+              <h3 className="text-xl font-semibold mb-2">7.1 For inquiries about your chat history:</h3>
               <ul className="list-disc pl-6 space-y-2">
-                <li>Primär an Ihre Zahnarztpraxis</li>
-                <li>Alternativ an: info@meine-bots.de</li>
+                <li>Primarily to your dental practice</li>
+                <li>Alternatively to: info@meine-bots.de</li>
               </ul>
 
-              <h3 className="text-xl font-semibold mb-2">7.2 Bei technischen Fragen:</h3>
+              <h3 className="text-xl font-semibold mb-2">7.2 For technical questions:</h3>
               <div className="pl-4 border-l-4 border-blue-500">
-                <p>Meine-bots (SteGra LLC)</p>
-                <p>E-Mail: info@meine-bots.de</p>
+                <p>My-bots (SteGra LLC)</p>
+                <p>Email: info@meine-bots.de</p>
               </div>
             </div>
           </section>
 
           <section className="mb-12">
-            <h2 className="text-2xl font-bold mb-4">8. Datensicherheit</h2>
+            <h2 className="text-2xl font-bold mb-4">8. Data Security</h2>
             <div className="space-y-4 text-gray-300">
-              <h3 className="text-xl font-semibold mb-2">8.1 Technische Maßnahmen:</h3>
+              <h3 className="text-xl font-semibold mb-2">8.1 Technical Measures:</h3>
               <ul className="list-disc pl-6 space-y-2">
-                <li>Verschlüsselte Datenübertragung (TLS)</li>
-                <li>Zugriffskontrollen und Authentifizierung</li>
-                <li>Regelmäßige Sicherheitsupdates</li>
-                <li>Protokollierung aller Zugriffe</li>
+                <li>Encrypted data transmission (TLS)</li>
+                <li>Access controls and authentication</li>
+                <li>Regular security updates</li>
+                <li>Logging of all access</li>
               </ul>
 
-              <h3 className="text-xl font-semibold mb-2">8.2 Organisatorische Maßnahmen:</h3>
+              <h3 className="text-xl font-semibold mb-2">8.2 Organizational Measures:</h3>
               <ul className="list-disc pl-6 space-y-2">
-                <li>Schulung aller Mitarbeiter</li>
-                <li>Dokumentierte Prozesse</li>
-                <li>Regelmäßige Kontrollen</li>
-                <li>Incident-Response-Plan</li>
+                <li>Training of all employees</li>
+                <li>Documented processes</li>
+                <li>Regular controls</li>
+                <li>Incident response plan</li>
               </ul>
             </div>
           </section>
 
           <section className="mb-12">
-            <h2 className="text-2xl font-bold mb-4">9. Änderungsvorbehalt</h2>
+            <h2 className="text-2xl font-bold mb-4">9. Reservation of Changes</h2>
             <div className="space-y-4 text-gray-300">
-              <p>Wir behalten uns vor, diese Datenschutzhinweise anzupassen, wenn:</p>
+              <p>We reserve the right to adapt these privacy notices if:</p>
               <ul className="list-disc pl-6 space-y-2">
-                <li>Sich rechtliche Anforderungen ändern</li>
-                <li>Technische Änderungen erfolgen</li>
-                <li>Dies zur Verbesserung des Datenschutzes erforderlich ist</li>
+                <li>Legal requirements change</li>
+                <li>Technical changes occur</li>
+                <li>This is necessary to improve data protection</li>
               </ul>
-              <p>Die aktuelle Version finden Sie stets im Chatbot-Dialog.</p>
+              <p>The current version can always be found in the chatbot dialog.</p>
             </div>
           </section>
 
           <section className="mb-12">
-            <h2 className="text-2xl font-bold mb-4">10. Einwilligung und Widerruf</h2>
+            <h2 className="text-2xl font-bold mb-4">10. Consent and Withdrawal</h2>
             <div className="space-y-4 text-gray-300">
               <p>
-                Die Nutzung des Chatbots erfordert Ihre Einwilligung in diese Datenverarbeitung. 
-                Sie können Ihre Einwilligung jederzeit mit Wirkung für die Zukunft widerrufen. 
-                Der Widerruf berührt nicht die Rechtmäßigkeit der bis dahin erfolgten Verarbeitung.
+                The use of the chatbot requires your consent to this data processing. 
+                You can withdraw your consent at any time with effect for the future. 
+                The withdrawal does not affect the lawfulness of processing based on consent before its withdrawal.
               </p>
             </div>
           </section>

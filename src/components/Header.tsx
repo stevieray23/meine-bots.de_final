@@ -3,12 +3,12 @@ import { Link, useLocation } from 'react-router-dom';
 import { Menu, X, Bot } from 'lucide-react';
 
 const menuItems = [
-  { name: 'Dienstleistungen', href: '#services' },
-  { name: 'Branchen', href: '#industries' },
-  { name: 'Referenzen', href: '#testimonials' },
-  { name: 'Über\xa0uns', href: '#team' },
+  { name: 'Services', href: '#services' },
+  { name: 'Industries', href: '#industries' },
+  { name: 'Testimonials', href: '#testimonials' },
+  { name: 'About\xa0us', href: '#team' },
   { name: 'FAQ', href: '#faq' },
-  { name: 'Kontakt', href: '#contact' }
+  { name: 'Contact', href: '#contact' }
 ];
 
 const Header = () => {
@@ -47,7 +47,7 @@ const Header = () => {
         <div className="flex items-center justify-between">
           <Link to="/" className="flex items-center space-x-2">
             <Bot className="h-6 sm:h-8 w-6 sm:w-8 text-blue-500" />
-            <span className="text-lg sm:text-xl font-bold text-white">meine-bots</span>
+            <span className="text-lg sm:text-xl font-bold text-white">my-bots</span>
           </Link>
 
           {/* Desktop Navigation */}
@@ -68,7 +68,7 @@ const Header = () => {
               rel="noopener noreferrer"
               className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
             >
-              Gratis Demo
+              Free Demo
             </a>
           </div>
 
@@ -101,7 +101,7 @@ const Header = () => {
               className="block py-2.5 px-2 mt-2 text-blue-500 hover:text-blue-400 transition-colors"
               onClick={() => setIsOpen(false)}
             >
-              Gratis Demo
+              Free Demo
             </a>
           </div>
         )}

@@ -11,7 +11,7 @@ const VoiceAssistantDemo = () => {
             <div className="p-4 border-b border-gray-800 flex items-center justify-between">
               <div className="flex items-center gap-2">
                 <Phone className="h-5 w-5 text-blue-500" />
-                <span className="text-white font-medium">Aktiver Anruf</span>
+                <span className="text-white font-medium">Active Call</span>
               </div>
               <div className="flex items-center gap-2 text-sm text-green-500">
                 <span>00:42</span>
@@ -31,17 +31,17 @@ const VoiceAssistantDemo = () => {
               
               <div className="space-y-4">
                 <div className="bg-gray-800/50 rounded-lg p-4">
-                  <div className="text-sm text-gray-400 mb-2">Transkript</div>
+                  <div className="text-sm text-gray-400 mb-2">Transcript</div>
                   <p className="text-white">
-                    "Sehr gerne buche ich einen Termin für morgen. Sie erhalten die Buchungsbestätigung per Email."
+                    "I'd be happy to book an appointment for tomorrow. You'll receive the booking confirmation via email."
                   </p>
                 </div>
                 
                 <div className="grid grid-cols-3 gap-3">
                   {[
-                    { icon: Calendar, label: 'Termin' },
-                    { icon: MessageSquare, label: 'Notiz' },
-                    { icon: Phone, label: 'Weiterleiten' }
+                    { icon: Calendar, label: 'Appointment' },
+                    { icon: MessageSquare, label: 'Note' },
+                    { icon: Phone, label: 'Transfer' }
                   ].map(({ icon: Icon, label }) => (
                     <button
                       key={label}
@@ -60,21 +60,21 @@ const VoiceAssistantDemo = () => {
           <div className="space-y-6">
             <div className="inline-block">
               <span className="bg-blue-500/10 text-blue-500 px-4 py-1.5 rounded-full text-sm font-medium">
-                Sprachassistenten
+                Voice Assistants
               </span>
             </div>
             <h2 className="text-2xl sm:text-3xl font-bold text-white">
-              Intelligente Sprachassistenten für professionelle Kommunikation
+              Intelligent Voice Assistants for Professional Communication
             </h2>
             <p className="text-gray-400 text-lg">
-              Unsere KI-gestützten Sprachassistenten revolutionieren Ihre Telefonie mit modernster Natural Language Processing (NLP) Technologie. Automatisieren Sie Support, Terminvereinbarungen und Marketingaktionen.
+              Our AI-powered voice assistants revolutionize your telephony with state-of-the-art Natural Language Processing (NLP) technology. Automate support, appointment scheduling, and marketing actions.
             </p>
             <ul className="space-y-3">
               {[
-                'Natürliche Gesprächsführung',
-                'Echtzeit-Transkription',
-                'Intelligente Terminplanung',
-                'Mehrsprachiger Support'
+                'Natural Conversation Flow',
+                'Real-time Transcription',
+                'Intelligent Appointment Scheduling',
+                'Multilingual Support'
               ].map((feature) => (
                 <li key={feature} className="flex items-center gap-2 text-gray-300">
                   <Sparkles className="h-5 w-5 text-blue-500" />
@@ -88,7 +88,7 @@ const VoiceAssistantDemo = () => {
               rel="noopener noreferrer"
               className="inline-flex items-center px-6 py-3 text-white bg-blue-600 rounded-lg hover:bg-blue-700 transition-colors group"
             >
-              Sprachassistent Demo anfragen
+              Request Voice Assistant Demo
               <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
             </a>
           </div>

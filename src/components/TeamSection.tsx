@@ -1,16 +1,16 @@
 import React from 'react';
 import AnimatedRobot from './AnimatedRobot';
 
-const UeberUnsSection = () => {
+const AboutUsSection = () => {
   return (
     <section id="team" className="py-24 bg-gradient-to-b from-gray-900 to-black">
       <div className="container mx-auto px-6">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-4xl font-bold text-white mb-6">
-            Über uns
+            About Us
           </h2>
           <p className="text-gray-400 text-lg">
-            Experten für KI-Entwicklung, Implementierung und Kundenbetreuung
+            Experts in AI development, implementation, and customer support
           </p>
         </div>
 
@@ -25,7 +25,7 @@ const UeberUnsSection = () => {
               />
             </div>
             <h3 className="text-2xl font-bold text-white mb-2">Stephan Graf</h3>
-            <p className="text-blue-500 text-lg mb-4">Gründer Meine-Bots</p>
+            <p className="text-blue-500 text-lg mb-4">Founder My-Bots</p>
           </div>
 
           {/* AI Agent Section */}
@@ -33,8 +33,8 @@ const UeberUnsSection = () => {
             <div className="relative mb-6 mx-auto w-64 h-64">
               <AnimatedRobot />
             </div>
-            <h3 className="text-2xl font-bold text-white mb-2">RiO KI Assistant</h3>
-            <p className="text-blue-500 text-lg mb-4">Ihr KI-Assistent</p>
+            <h3 className="text-2xl font-bold text-white mb-2">RiO AI Assistant</h3>
+            <p className="text-blue-500 text-lg mb-4">Your AI Assistant</p>
             <div className="max-w-sm mx-auto">
               <p className="text-gray-400"></p>
             </div>
@@ -45,5 +45,4 @@ const UeberUnsSection = () => {
   );
 };
 
-
-export default UeberUnsSection
+export default AboutUsSection;
